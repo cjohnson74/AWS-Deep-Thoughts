@@ -1,2 +1,16 @@
 # AWS-Deep-Thoughts
 In this application, I refactored the existing MERN application Deep Thoughts, which allows users to sign up and create an account, post their thoughts, and share their thoughts and images with other users. I deployed this app to the cloud using AWS and replace the back-end API to use cloud resources for storage, database, and computing. To accomplish this, I configured a database service with DynamoDB, stored and retrieved static assets using S3, and deployed the app on an Ubuntu server to an EC2 instance.
+
+# Tools I Used
+
+(AWS)[https://aws.amazon.com/], also known as Amazon Web Services, is currently the most comprehensive and widely used cloud computing platform, providing on-demand services to a vast array of customers—including individuals, companies, and governments and ranging from startup to enterprise. Offered on a pay-as-you-go basis, AWS includes an extensive free service tier, which I useed for this application. Signing up did require a credit card, but I wasn't be charged any fees to create the application.
+
+## I used the following AWS resources in this application:
+
+(IAM)[https://aws.amazon.com/iam/], or Identity and Access Management, helps ensure secure access to AWS services and resources. The IAM user console enables you to create and manage AWS users and groups as well as allow and deny access to AWS resources.
+
+(S3)[https://aws.amazon.com/s3/], or Simple Storage Service, is an object storage service used by companies of all sizes and in all industries. S3 allows customers to store and protect any amount of data for various uses, ranging from web and mobile applications to data archives and hybrid cloud storage. For this application, I used it to store and retrieve static assets for my application.
+
+(DynamoDB)[https://aws.amazon.com/dynamodb/] is a NoSQL key-value and document database that delivers incredibly fast performance—no matter the size of your data. This fully managed and multi-region database provides built-in security, backup, and in-memory caching for web applications. I used DynamoDB as the database for my application.
+
+(EC2)[https://aws.amazon.com/ec2/], or Elastic Compute Cloud, is a secure, scalable web service designed to simplify cloud computing. As the name suggests, EC2 offers flexibility when you need to obtain and configure capacity for your web applications. I used EC2 to configure a Linux server to host my application.
