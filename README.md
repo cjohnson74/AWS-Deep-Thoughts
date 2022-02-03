@@ -14,7 +14,7 @@ In this application, I refactored the existing MERN application Deep Thoughts, w
 
      - [EC2](https://aws.amazon.com/ec2/), or Elastic Compute Cloud, is a secure, scalable web service designed to simplify cloud computing. As the name suggests, EC2 offers flexibility when you need to obtain and configure capacity for your web applications. I used EC2 to configure a Linux server to host my application.
 
-- The (AWS Command Line Interface)[https://aws.amazon.com/cli/], or AWS CLI, helped me bring together my various AWS services, by controlling them from the command line. I could also automate these services by using scripts.
+- The [AWS Command Line Interface](https://aws.amazon.com/cli/), or AWS CLI, helped me bring together my various AWS services, by controlling them from the command line. I could also automate these services by using scripts.
 
 - I used the following npm packages in this course:
 
