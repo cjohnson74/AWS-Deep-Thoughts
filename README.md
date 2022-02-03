@@ -6,7 +6,6 @@ In this application, I refactored the existing MERN application Deep Thoughts, w
 - [AWS](https://aws.amazon.com/), also known as Amazon Web Services, is currently the most comprehensive and widely used cloud computing platform, providing on-demand services to a vast array of customers—including individuals, companies, and governments and ranging from startup to enterprise. Offered on a pay-as-you-go basis, AWS includes an extensive free service tier, which I useed for this application. Signing up did require a credit card, but I wasn't be charged any fees to create the application.
 
 ## - I used the following AWS resources in this application:
-
   - [IAM](https://aws.amazon.com/iam/), or Identity and Access Management, helps ensure secure access to AWS services and resources. The IAM user console enables you to create and manage AWS users and groups as well as allow and deny access to AWS resources.
 
   - [S3](https://aws.amazon.com/s3/), or Simple Storage Service, is an object storage service used by companies of all sizes and in all industries. S3 allows customers to store and protect any amount of data for various uses, ranging from web and mobile applications to data archives and hybrid cloud storage. For this application, I used it to store and retrieve static assets for my application.
