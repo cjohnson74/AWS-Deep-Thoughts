@@ -1,6 +1,16 @@
 # AWS-Deep-Thoughts
 In this application, I refactored the existing MERN application Deep Thoughts, which allows users to sign up and create an account, post their thoughts, and share their thoughts and images with other users. I deployed this app to the cloud using AWS and replace the back-end API to use cloud resources for storage, database, and computing. To accomplish this, I configured a database service with DynamoDB, stored and retrieved static assets using S3, and deployed the app on an Ubuntu server to an EC2 instance.
 
+# Introduction
+
+I've explored not only full-stack web development and several front-end and back-end tech stacks, but also the inner workings of JavaScript execution, performant web applications, the internet itself, and much more.
+
+I could easily stop there. But these days, the internet has become embedded in how we communicate, interact with, and find new customers, and for that reason, companies need more than just a website—they need a way to deliver that website to consumers consistently, reliably, and economically. While developing this application, I examined how cloud computing has solved this problem and caused a paradigm shift in how companies deliver web solutions to consumers.
+
+I worked with an app that I've already built: the (Deep Thoughts)[ ] application, which allows users to post their thoughts. I built it using React, Node.js, Express.js, and MongoDB, which makes it a MERN application. Moving forward, I deploy this app to the cloud and replace the back-end API with cloud resources to handle the storage, database, and computing.
+
+I chosen Amazon Web Services, or AWS, to fulfill this role. I chose AWS over other providers, like Microsoft Azure or the Google Cloud Platform, because AWS is currently the most comprehensive and widely adopted cloud platform. AWS offers the widest range of web services, a vast array of customers (from startups to enterprise), and an extensive free tier.
+
 # Tools I Used
 
 - [AWS](https://aws.amazon.com/), also known as Amazon Web Services, is currently the most comprehensive and widely used cloud computing platform, providing on-demand services to a vast array of customers—including individuals, companies, and governments and ranging from startup to enterprise. Offered on a pay-as-you-go basis, AWS includes an extensive free service tier, which I useed for this application. Signing up did require a credit card, but I wasn't be charged any fees to create the application.
