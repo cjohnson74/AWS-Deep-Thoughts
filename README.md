@@ -13,3 +13,17 @@ In this application, I refactored the existing MERN application Deep Thoughts, w
      - [DynamoDB](https://aws.amazon.com/dynamodb/) is a NoSQL key-value and document database that delivers incredibly fast performance—no matter the size of your data. This fully managed and multi-region database provides built-in security, backup, and in-memory caching for web applications. I used DynamoDB as the database for my application.
 
      - [EC2](https://aws.amazon.com/ec2/), or Elastic Compute Cloud, is a secure, scalable web service designed to simplify cloud computing. As the name suggests, EC2 offers flexibility when you need to obtain and configure capacity for your web applications. I used EC2 to configure a Linux server to host my application.
+
+- The (AWS Command Line Interface)[https://aws.amazon.com/cli/], or AWS CLI, helped me bring together my various AWS services, by controlling them from the command line. I could also automate these services by using scripts.
+
+- I used the following npm packages in this course:
+
+    - [aws-sdk](https://www.npmjs.com/package/aws-sdk) is the official AWS software development kit (SDK) for JavaScript. Available for browsers, mobile devices, or Node.js back ends, this package will allow your Node.js application to interface with AWS.
+
+    - [multer](https://www.npmjs.com/package/multer) is a Node.js middleware for handling file uploads. In this project, you’ll use it as a container for image files until they’re ready to be uploaded to an S3 bucket.
+
+    - [uuid](https://www.npmjs.com/package/uuid) stands for universally unique identifier. This package generates random alphanumeric strings that can serve as unique identifiers. You’ll use this package to generate identifiers for your S3 bucket and for your application’s images.
+
+    - [pm2](https://www.npmjs.com/package/pm2) is a Node.js production process manager that helps you manage your web application—and keep it live online. You’ll use this package to keep your application running even after you’ve logged out of the server on EC2.
+
+- [nginx](https://www.nginx.com/), sometimes stylized as NGINX or NginX, is a free and open-source web server that can also serve as a reverse proxy, load balancer, mail proxy, or HTTP cache. You’ll use it as an application server to expose the EC2 instance to the internet.
